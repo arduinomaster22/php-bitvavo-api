@@ -11,13 +11,14 @@
     "require": {
         "php": "^8.3",
         "ext-curl": "*",
-        "ratchet/pawl": "*",
-        "react/socket": "*",
-        "ratchet/rfc6455": "*"
+        "ratchet/pawl": "^0.4.1",
+        "react/socket": "^1.16",
+        "ratchet/rfc6455": "^0.3.1"
     },
     "config": {
         "optimize-autoloader": true,
-        "minimum-stability": "stable"
+        "minimum-stability": "dev",
+        "prefer-stable": false
     },
     "autoload": {
         "classmap": [
