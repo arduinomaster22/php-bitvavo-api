@@ -9,11 +9,11 @@
         }
     ],
     "require": {
-        "php": "8.3",
+        "php": "^8.3",
         "ext-curl": "*",
         "ratchet/pawl": "*",
         "react/socket": "*",
-        "ratchet/rfc6455": *"
+        "ratchet/rfc6455": "*"
     },
     "config": {
         "optimize-autoloader": true,
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "classmap": [
-          "bitvavo.php"
+            "bitvavo.php"
         ]
     }
 }
