@@ -9,11 +9,11 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
+        "php": "8.3",
         "ext-curl": "*",
-        "ratchet/pawl": "^0.3.0",
-        "react/socket": "^1.0 || ^0.8 || ^0.7",
-        "ratchet/rfc6455": "^0.2.3"
+        "ratchet/pawl": "*",
+        "react/socket": "*",
+        "ratchet/rfc6455": *"
     },
     "config": {
         "optimize-autoloader": true,
